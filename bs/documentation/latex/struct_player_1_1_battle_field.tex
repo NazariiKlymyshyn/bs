@@ -1,0 +1,105 @@
+\hypertarget{struct_player_1_1_battle_field}{}\doxysection{Player\+::Battle\+Field Struct Reference}
+\label{struct_player_1_1_battle_field}\index{Player::BattleField@{Player::BattleField}}
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+
+
+Collaboration diagram for Player\+::Battle\+Field\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}{Se\+Unit\+State}} (std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ \&\mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}, const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate, const \mbox{\hyperlink{struct_player_1_1_unit}{Unit}} \&Unit\+State)
+\item 
+void \mbox{\hyperlink{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}{Se\+Unit\+State}} (std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ \&\mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}, const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate, const \mbox{\hyperlink{struct_player_1_1_unit}{Unit}} \&Unit\+State)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} \mbox{\hyperlink{struct_player_1_1_battle_field_a48f47bde5a0a235f500456f5364fb65c}{state}}
+\item 
+std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ \mbox{\hyperlink{struct_player_1_1_battle_field_acfcffc8781cc2d0014f9ddbcf16b0bab}{battle\+\_\+field}}
+\item 
+const \mbox{\hyperlink{struct_player_1_1_image}{Player\+::\+Image}} \mbox{\hyperlink{struct_player_1_1_battle_field_a5fbd4a0010ced18551ca09c7d6156a24}{picture}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+structure eating all the objects that are necessary for the presentation ~\newline
+ of each of the battlefields of both players ~\newline
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}\label{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}} 
+\index{Player::BattleField@{Player::BattleField}!SeUnitState@{SeUnitState}}
+\index{SeUnitState@{SeUnitState}!Player::BattleField@{Player::BattleField}}
+\doxysubsubsection{\texorpdfstring{SeUnitState()}{SeUnitState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player\+::\+Battle\+Field\+::\+Se\+Unit\+State (\begin{DoxyParamCaption}\item[{std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ \&}]{Battle\+Field,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate,  }\item[{const \mbox{\hyperlink{struct_player_1_1_unit}{Unit}} \&}]{Unit\+State }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}\label{struct_player_1_1_battle_field_a45bc16cd1ef7e37f97e2f2e4b145d386}} 
+\index{Player::BattleField@{Player::BattleField}!SeUnitState@{SeUnitState}}
+\index{SeUnitState@{SeUnitState}!Player::BattleField@{Player::BattleField}}
+\doxysubsubsection{\texorpdfstring{SeUnitState()}{SeUnitState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player\+::\+Battle\+Field\+::\+Se\+Unit\+State (\begin{DoxyParamCaption}\item[{std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ \&}]{Battle\+Field,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate,  }\item[{const \mbox{\hyperlink{struct_player_1_1_unit}{Unit}} \&}]{Unit\+State }\end{DoxyParamCaption})}
+
+Change the state of a certain unit of the battlefield ~\newline
+ 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}} & parameters\+: reference to a field object, whose unit state will be changed, \\
+\hline
+{\em Absciss} & $\ast$constant references to the coordinates of the cell whose state must be changed \\
+\hline
+{\em Unit\+State} & constant reference to a \char`\"{}\+Unit\char`\"{} object that conditionally displays the state to which a certain cell must be transferred \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_player_1_1_battle_field_acfcffc8781cc2d0014f9ddbcf16b0bab}\label{struct_player_1_1_battle_field_acfcffc8781cc2d0014f9ddbcf16b0bab}} 
+\index{Player::BattleField@{Player::BattleField}!battle\_field@{battle\_field}}
+\index{battle\_field@{battle\_field}!Player::BattleField@{Player::BattleField}}
+\doxysubsubsection{\texorpdfstring{battle\_field}{battle\_field}}
+{\footnotesize\ttfamily std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}, 100 $>$ Player\+::\+Battle\+Field\+::battle\+\_\+field}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{      \mbox{\hyperlink{struct_player_1_1_battle_field_a48f47bde5a0a235f500456f5364fb65c}{state}}}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{struct_player_1_1_battle_field_a5fbd4a0010ced18551ca09c7d6156a24}\label{struct_player_1_1_battle_field_a5fbd4a0010ced18551ca09c7d6156a24}} 
+\index{Player::BattleField@{Player::BattleField}!picture@{picture}}
+\index{picture@{picture}!Player::BattleField@{Player::BattleField}}
+\doxysubsubsection{\texorpdfstring{picture}{picture}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_image}{Player\+::\+Image}} Player\+::\+Battle\+Field\+::picture}
+
+\mbox{\Hypertarget{struct_player_1_1_battle_field_a48f47bde5a0a235f500456f5364fb65c}\label{struct_player_1_1_battle_field_a48f47bde5a0a235f500456f5364fb65c}} 
+\index{Player::BattleField@{Player::BattleField}!state@{state}}
+\index{state@{state}!Player::BattleField@{Player::BattleField}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} Player\+::\+Battle\+Field\+::state}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{      \{}
+\DoxyCodeLine{        0,}
+\DoxyCodeLine{        0}
+\DoxyCodeLine{      \},}
+\DoxyCodeLine{      0,}
+\DoxyCodeLine{      0,}
+\DoxyCodeLine{      0,}
+\DoxyCodeLine{      0,}
+\DoxyCodeLine{      0}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nazar/qt\+\_\+projects/bs/headers/\mbox{\hyperlink{headers_2player_8h}{player.\+h}}\item 
+/home/nazar/qt\+\_\+projects/bs/sources/\mbox{\hyperlink{battlefield_8cpp}{battlefield.\+cpp}}\end{DoxyCompactItemize}

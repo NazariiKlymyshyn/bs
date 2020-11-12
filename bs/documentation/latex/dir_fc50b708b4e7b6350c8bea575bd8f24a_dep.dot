@@ -1,0 +1,10 @@
+digraph "/home/nazar/qt_projects" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fc50b708b4e7b6350c8bea575bd8f24a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fc50b708b4e7b6350c8bea575bd8f24a.html"];
+    dir_fc50b708b4e7b6350c8bea575bd8f24a [shape=plaintext label="qt_projects"];
+    dir_bbbf0b8614b361beea2f56c40339430b [shape=box label="bs" color="red" fillcolor="white" style="filled" URL="dir_bbbf0b8614b361beea2f56c40339430b.html"];
+  }
+}

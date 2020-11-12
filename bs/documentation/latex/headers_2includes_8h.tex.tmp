@@ -1,0 +1,40 @@
+\hypertarget{headers_2includes_8h}{}\doxysection{/home/nazar/qt\+\_\+projects/bs/headers/includes.h File Reference}
+\label{headers_2includes_8h}\index{/home/nazar/qt\_projects/bs/headers/includes.h@{/home/nazar/qt\_projects/bs/headers/includes.h}}
+{\ttfamily \#include $<$Q\+Main\+Window$>$}\newline
+{\ttfamily \#include $<$Q\+Application$>$}\newline
+{\ttfamily \#include $<$Q\+Image$>$}\newline
+{\ttfamily \#include $<$Q\+Painter$>$}\newline
+{\ttfamily \#include $<$Q\+Point$>$}\newline
+{\ttfamily \#include $<$Q\+Mouse\+Event$>$}\newline
+{\ttfamily \#include $<$Q\+Debug$>$}\newline
+{\ttfamily \#include $<$Qt\+Network/\+Q\+Tcp\+Socket$>$}\newline
+{\ttfamily \#include $<$Q\+String$>$}\newline
+{\ttfamily \#include $<$Q\+Map$>$}\newline
+{\ttfamily \#include $<$Q\+Dialog$>$}\newline
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Qt\+Network$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$Q\+Message\+Box$>$}\newline
+{\ttfamily \#include $<$Q\+Stacked\+Widget$>$}\newline
+{\ttfamily \#include $<$array$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for includes.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{headers_2includes_8h_ad72dbcf6d0153db1b8d8a58001feed83}{D\+E\+B\+UG}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{headers_2includes_8h_ad72dbcf6d0153db1b8d8a58001feed83}\label{headers_2includes_8h_ad72dbcf6d0153db1b8d8a58001feed83}} 
+\index{includes.h@{includes.h}!DEBUG@{DEBUG}}
+\index{DEBUG@{DEBUG}!includes.h@{includes.h}}
+\doxysubsubsection{\texorpdfstring{DEBUG}{DEBUG}}
+{\footnotesize\ttfamily \#define D\+E\+B\+UG}
+

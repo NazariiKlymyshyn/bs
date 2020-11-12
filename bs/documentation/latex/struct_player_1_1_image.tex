@@ -1,0 +1,82 @@
+\hypertarget{struct_player_1_1_image}{}\doxysection{Player\+::Image Struct Reference}
+\label{struct_player_1_1_image}\index{Player::Image@{Player::Image}}
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}{Image}} ()
+\item 
+const Q\+Image \& \mbox{\hyperlink{struct_player_1_1_image_aa9d1df98c6fbb726a2bd7f6df306cbcf}{Get\+Image}} (const Q\+String \&Path\+To\+Image) const
+\item 
+\mbox{\hyperlink{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}{Image}} ()
+\item 
+const Q\+Image \& \mbox{\hyperlink{struct_player_1_1_image_ac4993b8a2c087888af2289ed7cb3acad}{Get\+Image}} (const Q\+String \&Path\+To\+Image) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Map$<$ Q\+String, Q\+Image $>$ \mbox{\hyperlink{struct_player_1_1_image_abfb11357596882e28b25e272839e5026}{image}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+structure of objects that programmatically represent representations of game textures ~\newline
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}\label{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}} 
+\index{Player::Image@{Player::Image}!Image@{Image}}
+\index{Image@{Image}!Player::Image@{Player::Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Player\+::\+Image\+::\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Primary initialization of any \mbox{\hyperlink{struct_player_1_1_image}{Image}} class\textquotesingle{} objects,. obtaining the absolute path to the executable file in the file explorer of the user who launched the application
+
+converting provided Q\+String object in order to divide it to std\+::string tokens
+
+obtaining the absolute path to directory with all game needed textures
+
+directly forming Q\+Map with all needed objects\mbox{\Hypertarget{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}\label{struct_player_1_1_image_a19ab920eb6eff7ede27ac28c8fd00d10}} 
+\index{Player::Image@{Player::Image}!Image@{Image}}
+\index{Image@{Image}!Player::Image@{Player::Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Player\+::\+Image\+::\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_player_1_1_image_ac4993b8a2c087888af2289ed7cb3acad}\label{struct_player_1_1_image_ac4993b8a2c087888af2289ed7cb3acad}} 
+\index{Player::Image@{Player::Image}!GetImage@{GetImage}}
+\index{GetImage@{GetImage}!Player::Image@{Player::Image}}
+\doxysubsubsection{\texorpdfstring{GetImage()}{GetImage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const Q\+Image\& Player\+::\+Image\+::\+Get\+Image (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{Path\+To\+Image }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{struct_player_1_1_image_aa9d1df98c6fbb726a2bd7f6df306cbcf}\label{struct_player_1_1_image_aa9d1df98c6fbb726a2bd7f6df306cbcf}} 
+\index{Player::Image@{Player::Image}!GetImage@{GetImage}}
+\index{GetImage@{GetImage}!Player::Image@{Player::Image}}
+\doxysubsubsection{\texorpdfstring{GetImage()}{GetImage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const Q\+Image \& Player\+::\+Image\+::\+Get\+Image (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{Path\+To\+Image }\end{DoxyParamCaption}) const}
+
+in order to avoid loud chains of calls of an encapsulated similar class method \mbox{\hyperlink{struct_player_1_1_image}{Image}}, ~\newline
+ this public \char`\"{}wrapper\char`\"{} has been introduced providing similar functionality to parts ~\newline
+ of the program that do not have access to the class ~\newline
+
+
+Retun as Q\+Image object needed for displaying image 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_player_1_1_image_abfb11357596882e28b25e272839e5026}\label{struct_player_1_1_image_abfb11357596882e28b25e272839e5026}} 
+\index{Player::Image@{Player::Image}!image@{image}}
+\index{image@{image}!Player::Image@{Player::Image}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily Q\+Map$<$ Q\+String, Q\+Image $>$ Player\+::\+Image\+::image}
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nazar/qt\+\_\+projects/bs/headers/\mbox{\hyperlink{headers_2player_8h}{player.\+h}}\item 
+/home/nazar/qt\+\_\+projects/bs/sources/\mbox{\hyperlink{image_8cpp}{image.\+cpp}}\end{DoxyCompactItemize}

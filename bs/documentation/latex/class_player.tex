@@ -1,0 +1,329 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+The \mbox{\hyperlink{class_player}{Player}} class.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}
+\item 
+struct \mbox{\hyperlink{struct_player_1_1_current_program_state}{Current\+Program\+State}}
+\item 
+struct \mbox{\hyperlink{struct_player_1_1_image}{Image}}
+\item 
+struct \mbox{\hyperlink{struct_player_1_1_unit}{Unit}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}{Player}} (const \mbox{\hyperlink{class_player}{Player}} \&)=delete
+\item 
+\mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_ab81d34e4adb4e329d26b1635d866462d}{operator=}} (const \mbox{\hyperlink{class_player}{Player}} \&)=delete
+\item 
+void \mbox{\hyperlink{class_player_a8703ed5c481e78719cda207d0cdf94f7}{Auto\+Ships\+Place}} ()
+\item 
+const int\+\_\+fast8\+\_\+t \mbox{\hyperlink{class_player_aa2005e1e50a3befae98979c751cd995c}{Is\+Win}} ()
+\item 
+const Q\+Image \& \mbox{\hyperlink{class_player_a0ebe1288030441710a382432705fcc86}{Get\+Image}} (const Q\+String \&Path\+To\+Image) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} \mbox{\hyperlink{class_player_a410ee4a6266d900fd3f7fc6658931cc7}{Get\+Single\+Unit\+State}} (const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \&\mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}, const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate) const
+\item 
+const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \mbox{\hyperlink{class_player_a9bf861d0d7b5904cfd8d9e06111d1b0c}{Get\+Whole\+Field\+State}} (const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \&Field) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \mbox{\hyperlink{class_player_a3227f6e0968b15322cdb3655fe219ee3}{Get\+First\+Player\+Field}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \mbox{\hyperlink{class_player_a666dbce7f4af9b5d5e0da0459c02c181}{Get\+Second\+Player\+Field}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \mbox{\hyperlink{class_player_aaefb4407d5c9146c7552fc3df352e753}{Get\+Current\+Program\+State}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const uint\+\_\+fast8\+\_\+t \mbox{\hyperlink{class_player_af116a076898327be93c9f2c344e60f6f}{check\+My\+Field}} () const
+\item 
+void \mbox{\hyperlink{class_player_a8c614a376ef27442e14322a29596d475}{Set\+Player\+State}} (\mbox{\hyperlink{class_player}{Player}} \&p, const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \&st)
+\item 
+void \mbox{\hyperlink{class_player_a0f1c70dd67a74880a3987989138fa4ab}{Process\+Click}} (const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate)
+\item 
+\mbox{\hyperlink{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}{Player}} (const \mbox{\hyperlink{class_player}{Player}} \&)=delete
+\item 
+\mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_ab81d34e4adb4e329d26b1635d866462d}{operator=}} (const \mbox{\hyperlink{class_player}{Player}} \&)=delete
+\item 
+void \mbox{\hyperlink{class_player_a8703ed5c481e78719cda207d0cdf94f7}{Auto\+Ships\+Place}} ()
+\item 
+const int\+\_\+fast8\+\_\+t \mbox{\hyperlink{class_player_aa2005e1e50a3befae98979c751cd995c}{Is\+Win}} ()
+\item 
+const Q\+Image \& \mbox{\hyperlink{class_player_a108108cc3cf78260bc6b77fefd09da7a}{Get\+Image}} (const Q\+String \&Path\+To\+Image) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} \mbox{\hyperlink{class_player_a410ee4a6266d900fd3f7fc6658931cc7}{Get\+Single\+Unit\+State}} (const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \&\mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}, const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate) const
+\item 
+const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \mbox{\hyperlink{class_player_a511a6b6991b268a1d8747034aae854dc}{Get\+Whole\+Field\+State}} (const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \&Field) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \mbox{\hyperlink{class_player_a3227f6e0968b15322cdb3655fe219ee3}{Get\+First\+Player\+Field}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \mbox{\hyperlink{class_player_a666dbce7f4af9b5d5e0da0459c02c181}{Get\+Second\+Player\+Field}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \mbox{\hyperlink{class_player_aaefb4407d5c9146c7552fc3df352e753}{Get\+Current\+Program\+State}} (const \mbox{\hyperlink{class_player}{Player}} \&p) const
+\item 
+const uint\+\_\+fast8\+\_\+t \mbox{\hyperlink{class_player_af116a076898327be93c9f2c344e60f6f}{check\+My\+Field}} () const
+\item 
+void \mbox{\hyperlink{class_player_a8c614a376ef27442e14322a29596d475}{Set\+Player\+State}} (\mbox{\hyperlink{class_player}{Player}} \&p, const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \&st)
+\item 
+void \mbox{\hyperlink{class_player_a0f1c70dd67a74880a3987989138fa4ab}{Process\+Click}} (const uint\+\_\+fast16\+\_\+t \&Absciss, const uint\+\_\+fast16\+\_\+t \&Ordinate)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_a3daa050d75a6023fdde9c98b1048b327}{Get\+Player\+Instance}} ()
+\item 
+static \mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_a38408013373be8b0c019ca19a9dcbf1f}{Get\+Player\+Instance}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_player}{Player}} class. 
+
+\char`\"{}main\char`\"{}, the most important class, the instance of which represents the concept ~\newline
+ of a player and a game, interacting with a graphical and network interface, ~\newline
+ encapsulating the rest of things in itself. ~\newline
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}\label{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}\label{class_player_ae8015d1f08ba69d663cfdaea1a64d1a4}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_a8703ed5c481e78719cda207d0cdf94f7}\label{class_player_a8703ed5c481e78719cda207d0cdf94f7}} 
+\index{Player@{Player}!AutoShipsPlace@{AutoShipsPlace}}
+\index{AutoShipsPlace@{AutoShipsPlace}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{AutoShipsPlace()}{AutoShipsPlace()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player\+::\+Auto\+Ships\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_a8703ed5c481e78719cda207d0cdf94f7}\label{class_player_a8703ed5c481e78719cda207d0cdf94f7}} 
+\index{Player@{Player}!AutoShipsPlace@{AutoShipsPlace}}
+\index{AutoShipsPlace@{AutoShipsPlace}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{AutoShipsPlace()}{AutoShipsPlace()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player\+::\+Auto\+Ships\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Filling first player\textquotesingle{}s battlefield with pseudo random ships placement ~\newline
+ (used same as for any ai battlefield algorithm) ~\newline
+ \mbox{\Hypertarget{class_player_af116a076898327be93c9f2c344e60f6f}\label{class_player_af116a076898327be93c9f2c344e60f6f}} 
+\index{Player@{Player}!checkMyField@{checkMyField}}
+\index{checkMyField@{checkMyField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{checkMyField()}{checkMyField()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const uint\+\_\+fast8\+\_\+t Player\+::check\+My\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_af116a076898327be93c9f2c344e60f6f}\label{class_player_af116a076898327be93c9f2c344e60f6f}} 
+\index{Player@{Player}!checkMyField@{checkMyField}}
+\index{checkMyField@{checkMyField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{checkMyField()}{checkMyField()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const uint\+\_\+fast8\+\_\+t Player\+::check\+My\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+function initializing the launch of a chain of functions to determine the validity of the custom arrangement of ships on the playing field
+
+function initializing the launch of a chain of functions to determine the ~\newline
+ validity of the custom arrangement of ships on the playing field ~\newline
+ \mbox{\Hypertarget{class_player_aaefb4407d5c9146c7552fc3df352e753}\label{class_player_aaefb4407d5c9146c7552fc3df352e753}} 
+\index{Player@{Player}!GetCurrentProgramState@{GetCurrentProgramState}}
+\index{GetCurrentProgramState@{GetCurrentProgramState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetCurrentProgramState()}{GetCurrentProgramState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} Player\+::\+Get\+Current\+Program\+State (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_aaefb4407d5c9146c7552fc3df352e753}\label{class_player_aaefb4407d5c9146c7552fc3df352e753}} 
+\index{Player@{Player}!GetCurrentProgramState@{GetCurrentProgramState}}
+\index{GetCurrentProgramState@{GetCurrentProgramState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetCurrentProgramState()}{GetCurrentProgramState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} Player\+::\+Get\+Current\+Program\+State (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+function returning an object of type conditionally displaying the state of the object ~\newline
+ \mbox{\Hypertarget{class_player_a3227f6e0968b15322cdb3655fe219ee3}\label{class_player_a3227f6e0968b15322cdb3655fe219ee3}} 
+\index{Player@{Player}!GetFirstPlayerField@{GetFirstPlayerField}}
+\index{GetFirstPlayerField@{GetFirstPlayerField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetFirstPlayerField()}{GetFirstPlayerField()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} Player\+::\+Get\+First\+Player\+Field (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a3227f6e0968b15322cdb3655fe219ee3}\label{class_player_a3227f6e0968b15322cdb3655fe219ee3}} 
+\index{Player@{Player}!GetFirstPlayerField@{GetFirstPlayerField}}
+\index{GetFirstPlayerField@{GetFirstPlayerField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetFirstPlayerField()}{GetFirstPlayerField()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} Player\+::\+Get\+First\+Player\+Field (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+in order to avoid loud chains of calls in any programs part a functional ~\newline
+ divided into three functions is provided for obtaining an object of the type ~\newline
+ that conditionally displays the state of each unit of the battlefield ~\newline
+
+
+in order to avoid loud chains of calls in any programs part a functional divided into three functions is provided for obtaining an object of the type that conditionally displays the state of each unit of the battlefield \mbox{\Hypertarget{class_player_a108108cc3cf78260bc6b77fefd09da7a}\label{class_player_a108108cc3cf78260bc6b77fefd09da7a}} 
+\index{Player@{Player}!GetImage@{GetImage}}
+\index{GetImage@{GetImage}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetImage()}{GetImage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const Q\+Image\& Player\+::\+Get\+Image (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{Path\+To\+Image }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a0ebe1288030441710a382432705fcc86}\label{class_player_a0ebe1288030441710a382432705fcc86}} 
+\index{Player@{Player}!GetImage@{GetImage}}
+\index{GetImage@{GetImage}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetImage()}{GetImage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const Q\+Image \& Player\+::\+Get\+Image (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{Path\+To\+Image }\end{DoxyParamCaption}) const}
+
+in order to avoid loud chains of calls of an encapsulated similar class method \mbox{\hyperlink{struct_player_1_1_image}{Image}}, ~\newline
+ this public \char`\"{}wrapper\char`\"{} has been introduced providing similar functionality to parts ~\newline
+ of the program that do not have access to the class ~\newline
+ \mbox{\Hypertarget{class_player_a38408013373be8b0c019ca19a9dcbf1f}\label{class_player_a38408013373be8b0c019ca19a9dcbf1f}} 
+\index{Player@{Player}!GetPlayerInstance@{GetPlayerInstance}}
+\index{GetPlayerInstance@{GetPlayerInstance}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetPlayerInstance()}{GetPlayerInstance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_player}{Player}}\& Player\+::\+Get\+Player\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_player_a3daa050d75a6023fdde9c98b1048b327}\label{class_player_a3daa050d75a6023fdde9c98b1048b327}} 
+\index{Player@{Player}!GetPlayerInstance@{GetPlayerInstance}}
+\index{GetPlayerInstance@{GetPlayerInstance}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetPlayerInstance()}{GetPlayerInstance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player}{Player}} \& Player\+::\+Get\+Player\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+In order to the need to prohibit the creation of many objects of \mbox{\hyperlink{class_player}{Player}} type due to the lack of ~\newline
+ possible correct use of them in a 1x1 game, a programming singleton template was used ~\newline
+ This method will provide the only existing object of type \mbox{\hyperlink{class_player}{Player}} in part of the program. ~\newline
+ \mbox{\Hypertarget{class_player_a666dbce7f4af9b5d5e0da0459c02c181}\label{class_player_a666dbce7f4af9b5d5e0da0459c02c181}} 
+\index{Player@{Player}!GetSecondPlayerField@{GetSecondPlayerField}}
+\index{GetSecondPlayerField@{GetSecondPlayerField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetSecondPlayerField()}{GetSecondPlayerField()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} Player\+::\+Get\+Second\+Player\+Field (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a666dbce7f4af9b5d5e0da0459c02c181}\label{class_player_a666dbce7f4af9b5d5e0da0459c02c181}} 
+\index{Player@{Player}!GetSecondPlayerField@{GetSecondPlayerField}}
+\index{GetSecondPlayerField@{GetSecondPlayerField}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetSecondPlayerField()}{GetSecondPlayerField()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} Player\+::\+Get\+Second\+Player\+Field (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{p }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a410ee4a6266d900fd3f7fc6658931cc7}\label{class_player_a410ee4a6266d900fd3f7fc6658931cc7}} 
+\index{Player@{Player}!GetSingleUnitState@{GetSingleUnitState}}
+\index{GetSingleUnitState@{GetSingleUnitState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetSingleUnitState()}{GetSingleUnitState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} Player\+::\+Get\+Single\+Unit\+State (\begin{DoxyParamCaption}\item[{const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \&}]{Battle\+Field,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a410ee4a6266d900fd3f7fc6658931cc7}\label{class_player_a410ee4a6266d900fd3f7fc6658931cc7}} 
+\index{Player@{Player}!GetSingleUnitState@{GetSingleUnitState}}
+\index{GetSingleUnitState@{GetSingleUnitState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetSingleUnitState()}{GetSingleUnitState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}} Player\+::\+Get\+Single\+Unit\+State (\begin{DoxyParamCaption}\item[{const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ \&}]{Battle\+Field,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate }\end{DoxyParamCaption}) const}
+
+Returns the state of a certain unit of the battlefield
+
+Returns the state of a certain unit of the battlefield ~\newline
+ 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{struct_player_1_1_battle_field}{Battle\+Field}}} & reference to a field object, whose unit state will be changed \\
+\hline
+{\em Absciss} & constant references to the coordinates of the cell whose state must be changed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a511a6b6991b268a1d8747034aae854dc}\label{class_player_a511a6b6991b268a1d8747034aae854dc}} 
+\index{Player@{Player}!GetWholeFieldState@{GetWholeFieldState}}
+\index{GetWholeFieldState@{GetWholeFieldState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetWholeFieldState()}{GetWholeFieldState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const std\+::array$<$\mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}},100$>$ Player\+::\+Get\+Whole\+Field\+State (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \&}]{Field }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_a9bf861d0d7b5904cfd8d9e06111d1b0c}\label{class_player_a9bf861d0d7b5904cfd8d9e06111d1b0c}} 
+\index{Player@{Player}!GetWholeFieldState@{GetWholeFieldState}}
+\index{GetWholeFieldState@{GetWholeFieldState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{GetWholeFieldState()}{GetWholeFieldState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const std\+::array$<$ \mbox{\hyperlink{struct_player_1_1_unit}{Player\+::\+Unit}}, 100 $>$ Player\+::\+Get\+Whole\+Field\+State (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_player_1_1_battle_field}{Player\+::\+Battle\+Field}} \&}]{Field }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_player_aa2005e1e50a3befae98979c751cd995c}\label{class_player_aa2005e1e50a3befae98979c751cd995c}} 
+\index{Player@{Player}!IsWin@{IsWin}}
+\index{IsWin@{IsWin}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{IsWin()}{IsWin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const int\+\_\+fast8\+\_\+t Player\+::\+Is\+Win (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_aa2005e1e50a3befae98979c751cd995c}\label{class_player_aa2005e1e50a3befae98979c751cd995c}} 
+\index{Player@{Player}!IsWin@{IsWin}}
+\index{IsWin@{IsWin}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{IsWin()}{IsWin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const int\+\_\+fast8\+\_\+t Player\+::\+Is\+Win (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A function that iterates through collections containing data on the state of the playing ~\newline
+ fields of each of the players and when determining whether a player won by ~\newline
+ destroying all the enemy\textquotesingle{}s corpses, transmits the corresponding signal to the ~\newline
+ part of the program responsible for the graphical interface ~\newline
+
+
+A function that iterates through collections containing data on the state of the playing ~\newline
+ fields of each of the players and when determining whether a player won by ~\newline
+ destroying all the enemy’s corpses, transmits the corresponding signal to the ~\newline
+ part of the program responsible for the graphical interface ~\newline
+ passage of the collection
+
+search for the number of \char`\"{}hits\char`\"{} in the ship of a specific player
+
+\char`\"{}cleans\char`\"{} the game field in connection with the victory of one of the players and the subsequent completion of the match
+
+passage of the collection
+
+search for the number of \char`\"{}hits\char`\"{} in the ship of a specific player
+
+\char`\"{}cleans\char`\"{} the game field in connection with the victory of one of the players and the subsequent completion of the match\mbox{\Hypertarget{class_player_ab81d34e4adb4e329d26b1635d866462d}\label{class_player_ab81d34e4adb4e329d26b1635d866462d}} 
+\index{Player@{Player}!operator=@{operator=}}
+\index{operator=@{operator=}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player}{Player}}\& Player\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_player_ab81d34e4adb4e329d26b1635d866462d}\label{class_player_ab81d34e4adb4e329d26b1635d866462d}} 
+\index{Player@{Player}!operator=@{operator=}}
+\index{operator=@{operator=}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player}{Player}}\& Player\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_player_a0f1c70dd67a74880a3987989138fa4ab}\label{class_player_a0f1c70dd67a74880a3987989138fa4ab}} 
+\index{Player@{Player}!ProcessClick@{ProcessClick}}
+\index{ProcessClick@{ProcessClick}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{ProcessClick()}{ProcessClick()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player\+::\+Process\+Click (\begin{DoxyParamCaption}\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_a0f1c70dd67a74880a3987989138fa4ab}\label{class_player_a0f1c70dd67a74880a3987989138fa4ab}} 
+\index{Player@{Player}!ProcessClick@{ProcessClick}}
+\index{ProcessClick@{ProcessClick}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{ProcessClick()}{ProcessClick()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player\+::\+Process\+Click (\begin{DoxyParamCaption}\item[{const uint\+\_\+fast16\+\_\+t \&}]{Absciss,  }\item[{const uint\+\_\+fast16\+\_\+t \&}]{Ordinate }\end{DoxyParamCaption})}
+
+The tool made it possible to determine the correctness of clicking the ~\newline
+ user\textquotesingle{}s mouse with respect to the current state of the program and its minor ~\newline
+ changes in accordance with the result
+
+The tool made it possible to determine the correctness of clicking the ~\newline
+ user’s mouse with respect to the current state of the program and its minor ~\newline
+ changes in accordance with the result ~\newline
+ \mbox{\Hypertarget{class_player_a8c614a376ef27442e14322a29596d475}\label{class_player_a8c614a376ef27442e14322a29596d475}} 
+\index{Player@{Player}!SetPlayerState@{SetPlayerState}}
+\index{SetPlayerState@{SetPlayerState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{SetPlayerState()}{SetPlayerState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player\+::\+Set\+Player\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{p,  }\item[{const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \&}]{st }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_player_a8c614a376ef27442e14322a29596d475}\label{class_player_a8c614a376ef27442e14322a29596d475}} 
+\index{Player@{Player}!SetPlayerState@{SetPlayerState}}
+\index{SetPlayerState@{SetPlayerState}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{SetPlayerState()}{SetPlayerState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player\+::\+Set\+Player\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{p,  }\item[{const \mbox{\hyperlink{struct_player_1_1_current_program_state}{Player\+::\+Current\+Program\+State}} \&}]{st }\end{DoxyParamCaption})}
+
+open to other parts of the program functionality to ~\newline
+ change the current state of the program ~\newline
+ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nazar/qt\+\_\+projects/bs/headers/\mbox{\hyperlink{headers_2player_8h}{player.\+h}}\item 
+/home/nazar/qt\+\_\+projects/bs/sources/\mbox{\hyperlink{player_8cpp}{player.\+cpp}}\end{DoxyCompactItemize}

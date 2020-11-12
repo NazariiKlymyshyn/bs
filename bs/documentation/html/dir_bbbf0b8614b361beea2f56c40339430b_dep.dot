@@ -1,0 +1,16 @@
+digraph "/home/nazar/qt_projects/bs" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fc50b708b4e7b6350c8bea575bd8f24a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="qt_projects" fontname="Helvetica", fontsize="10", URL="dir_fc50b708b4e7b6350c8bea575bd8f24a.html"]
+  subgraph clusterdir_bbbf0b8614b361beea2f56c40339430b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bbbf0b8614b361beea2f56c40339430b.html"];
+    dir_bbbf0b8614b361beea2f56c40339430b [shape=plaintext label="bs"];
+    dir_b6403c2714127f074c5fef608d977918 [shape=box label="headers" color="black" fillcolor="white" style="filled" URL="dir_b6403c2714127f074c5fef608d977918.html"];
+    dir_7bd82f10980a959bbaa4f7327db81763 [shape=box label="Images" color="black" fillcolor="white" style="filled" URL="dir_7bd82f10980a959bbaa4f7327db81763.html"];
+    dir_b7ce52003d654812e6d814298a6a903a [shape=box label="sources" color="black" fillcolor="white" style="filled" URL="dir_b7ce52003d654812e6d814298a6a903a.html"];
+  }
+  }
+  dir_b7ce52003d654812e6d814298a6a903a->dir_b6403c2714127f074c5fef608d977918 [headlabel="12", labeldistance=1.5 headhref="dir_000004_000002.html"];
+}
